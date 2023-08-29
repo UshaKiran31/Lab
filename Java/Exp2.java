@@ -53,15 +53,11 @@ class ElectricityBill{
         }
     }
     void showBillDetails(){
-       System.out.println("consumer number:"+consumer_number);
-        System.out.println("consumer name:"+consumer_name);
-        if(type.equals("d"))
-                     System.out.println("type=domestic");
-        else
-                    System.out.println("type=commercial");
- 
-        System.out.println("previous mounth reading:"+previous_month_reading);
-        System.out.println("current mounth reading:"+current_month_reading);
+       System.out.println("Consumer Number:"+consumer_number);
+        System.out.println("Consumer Name:"+consumer_name);
+        System.out.println("Type:"+type);
+        System.out.println("Previous Mounth Reading:"+previous_month_reading);
+        System.out.println("Current Mounth Reading:"+current_month_reading);
         System.out.println("Electricity Bill:"+amount);
     }       
     

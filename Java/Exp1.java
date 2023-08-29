@@ -64,6 +64,8 @@ class Invoice
             System.out.println("Item Details");
             System.out.println("Part number:"+iv.getPart_number());
             System.out.println("Part description:"+iv.getPart_description());
+            System.out.println("Part description:"+iv.getPart_description());
+            System.out.println("Quantity:"+iv.getQuantity());
             System.out.println("Total Billing Amount:"+iv.getInvoiceAmount());   
            }
    }
